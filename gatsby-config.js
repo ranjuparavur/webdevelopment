@@ -2,13 +2,15 @@ module.exports = {
   siteMetadata: {
     title: `Coverdriving`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Aniket Dass`,
+      summary: `who is passionate about cricket than most people. 
+      Usually a calm character, he is only provoked if someone 
+      disagrees that Rahul Dravid is a cricketing genious!`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Aniket Dass's personal cricketing blog.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `coverdriving`,
     },
   },
   plugins: [
@@ -60,10 +62,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Coverdriving - Everything Cricket`,
+        short_name: `Coverdriving`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#f4f4f4`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
