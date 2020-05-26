@@ -29,6 +29,7 @@ const Bio = () => {
           }
           social {
             twitter
+            instagram
           }
         }
       }
@@ -53,14 +54,18 @@ const Bio = () => {
           borderRadius: `100%`,
         }}
         imgStyle={{
-          borderRadius: `50%`,
+          borderRadius: `70%`,
         }}
       />
       <p>
         Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
+        {<br/>}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+          Coverdriving Twitter 
+        </a>
+        {<br/>}
+        <a href={`https://instagram.com/${social.instagram}`}>
+          Coverdriving Instagram 
         </a>
       </p>
     </div>

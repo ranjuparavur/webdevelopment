@@ -11,6 +11,7 @@ module.exports = {
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `coverdriving`,
+      instagram: 'coverdriving',
     },
   },
   plugins: [
