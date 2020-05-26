@@ -14,7 +14,7 @@ import { rhythm } from "../utils/typography"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/coverdriving.png/" }) {
         childImageSharp {
           fixed(width: 50, height: 50) {
             ...GatsbyImageSharpFixed
@@ -61,11 +61,11 @@ const Bio = () => {
         Written by <strong>{author.name}</strong> {author.summary}
         {<br/>}
         <a href={`https://twitter.com/${social.twitter}`}>
-          Coverdriving Twitter 
+          Coverdriving on Twitter 
         </a>
         {<br/>}
         <a href={`https://instagram.com/${social.instagram}`}>
-          Coverdriving Instagram 
+          Coverdriving on Instagram 
         </a>
       </p>
     </div>

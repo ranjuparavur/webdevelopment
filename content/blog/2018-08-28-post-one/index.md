@@ -12,7 +12,7 @@ Who holds the record for most Test Wickets amongst fast bowlers? Glenn Mcgrath, 
 
 In a Rahul Dravid biography, there exists a chapter titled “Never Say Never Again”, which tells how a young Dravid, who used to keep wickets in his school days, had decided never to keep wickets again. Of course, the ace right-hander would go on to don the big gloves in 73 ODIs for India. So, when Mcgrath says never again would the record change hands, how accurate is he being, and does the data at hand really back up his statement?
 
-##The Method
+## The Method
 
 What works in James Anderson’s favor is the longevity of his career. A fast bowler is prone to a variety of injuries- after all these men of speed live in the fast lane and put their bodies through a grind like no one else. The only other fast bowler per se to play more Test Matches than Jimmy’s 141, is the South African all-rounder Jacques Kallis (166). The best for a full-time fast bowler like Jimmy is the first paceman to 500 Test Wickets- Courtney Walsh (132).
 
@@ -32,7 +32,7 @@ Potential Wickets is nothing but the sum of wickets he has already taken and wic
 
 **Potential Wickets = Wickets + (Years * Team Matches * Fitness Level * Wickets/Match)**
 
-##The Result
+## The Result
 
 So where does James Anderson finish? To answer the question succinctly, he still has close to a hundred more Test Wickets in him and finishes a 164-Tests career with 647 wickets- 84 more than Glenn Mcgrath’s mark of 563. And does Anderson top the list? Not quite. He, in fact, finishes third!
 
