@@ -1,6 +1,7 @@
 ---
 title: Indian fans wake up to a bright Sunday Morning
 date: "2020-03-01T23:46:37.121Z"
+featuredImage: './Jasprit-Bumrah.jpg'
 description: Whitewashed in the ODI series, convincingly beaten and handed their first World Test Championship in the first Test, and a largely poor start to the second Test - it's not the best of times to be a fan of the Indian men's cricket team. But, that was so only until today morning. 
 ---
 

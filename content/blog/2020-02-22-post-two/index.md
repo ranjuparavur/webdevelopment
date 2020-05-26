@@ -1,6 +1,7 @@
 ---
 title: International Cricket Round Up – 22 February 2020
 date: "2020-02-22T22:40:32.169Z"
+featuredImage: './Thailand-Women-Cricket-Team.jpg'
 description: A weekly round-up of important events happening around the cricketing world.
 ---
 

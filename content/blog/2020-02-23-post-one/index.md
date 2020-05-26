@@ -1,6 +1,7 @@
 ---
 title: Meet Meet – an Exclusive Interview with the World’s Youngest Male International Cricketer
 date: "2020-02-23T22:40:32.169Z"
+featuredImage: './Meet-Bhavsar.jpg'
 description:  Meet Meet Bhavsar – a left handed wicket keeper cum opening batsman from Kuwait – the youngest male international cricketer on the planet.
 ---
 

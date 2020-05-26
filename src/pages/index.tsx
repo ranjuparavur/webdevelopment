@@ -6,6 +6,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import Img from "gatsby-image"
 
 type Data = {
   site: {
@@ -20,6 +21,13 @@ type Data = {
         frontmatter: {
           title: string
           date: string
+          featuredImage: {
+            childImageSharp: {
+              fluid: {
+                GatsbyImageSharpFluid: File
+              }
+            }
+          }
           description: string
         }
         fields: {
@@ -57,6 +65,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               </h3>
               <small><em>{node.frontmatter.date}</em></small>
               <small><strong> - {node.fields.readingTime.text}</strong></small>
+              <Img fluid={node.frontmatter.featuredImage.childImageSharp.fluid}/>
             </header>
             <section>
               <p
@@ -94,6 +103,13 @@ export const pageQuery = graphql`
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
+          featuredImage {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           description
         }
       }

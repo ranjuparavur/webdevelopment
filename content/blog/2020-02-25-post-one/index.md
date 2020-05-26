@@ -1,6 +1,7 @@
 ---
 title: When Sachin got his ODI Double…
 date: "2020-02-25T22:40:32.169Z"
+featuredImage: './Sachin-Tendulkar.jpg'
 description: A weekly round-up of important events happening around the cricketing world.
 ---
 

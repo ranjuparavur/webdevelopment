@@ -1,6 +1,7 @@
 ---
 title: International Cricket Round Up – 27 February 2020
 date: "2020-02-28T22:40:32.169Z"
+featuredImage: './INDWvNZW.jpg'
 description: A weekly round-up of important events happening around the cricketing world.
 ---
 

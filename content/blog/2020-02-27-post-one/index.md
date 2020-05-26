@@ -1,6 +1,7 @@
 ---
 title: International Cricket Round Up – 26 February 2020
 date: "2020-02-27T22:40:32.169Z"
+featuredImage: './Eng-v-Tha.jpg'
 description: A weekly round-up of important events happening around the cricketing world.
 ---
 

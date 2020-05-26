@@ -1,6 +1,7 @@
 ---
 title: Stat Highlights – SA v AUS, 1st T20I
 date: "2020-02-22T22:40:32.169Z"
+featuredImage: './Agar.jpg'
 description: South Africa took on Australia in the first of the three T20Is at the Wanderers in Johannesburg on Friday. Having scored 196/6 batting first, the Aaron Finch led visitors took a 1-0 lead with a crushing win over Quinton de Kock’s South Africa, bowling them out for a measly 89. Here are the stat highlights from the game –
 ---
 
