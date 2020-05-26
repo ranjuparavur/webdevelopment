@@ -24,6 +24,9 @@ type Data = {
         }
         fields: {
           slug: string
+          readingTime: {
+            text: string
+          }
         }
       }
     }[]
@@ -36,7 +39,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Home" />
       <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -52,7 +55,8 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <small><em>{node.frontmatter.date}</em></small>
+              <small><strong> - {node.fields.readingTime.text}</strong></small>
             </header>
             <section>
               <p
@@ -71,26 +75,29 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
+{
+  site {
+    siteMetadata {
+      title
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
+  }
+  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+    edges {
+      node {
+        excerpt
+        fields {
+          slug
+          readingTime {
+            text
           }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-          }
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          description
         }
       }
     }
   }
+}
 `
